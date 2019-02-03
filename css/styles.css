@@ -1,4 +1,17 @@
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+  color: #767676;
+  text-align: center;
+}
+
+h1 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
