@@ -1,7 +1,10 @@
 
+/*
+header and footer background color: #F9F8F8
+*/
+
 body {
   font-family: 'Sarabun', sans-serif;
-  color: #767676;
   text-align: center;
 }
 
@@ -10,8 +13,27 @@ h1 {
   font-weight: 700;
 }
 
-ul {
+nav ul {
+  display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 200px;
+  background-color: blue;
+}
+
+li  {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.first-section {
+  background-color: #F9F8F8;
+}
+
+
+footer {
+  background-color: #F9F8F8;
 }
