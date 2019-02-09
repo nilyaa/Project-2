@@ -4,6 +4,7 @@ header and footer background color: #F9F8F8
 */
 
 body {
+  background-color: #F9F8F8;
   font-family: 'Sarabun', sans-serif;
   text-align: center;
 }
@@ -18,8 +19,8 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: blue;
+  width: 380px;
+  background-color: white;
 }
 
 li  {
@@ -29,11 +30,22 @@ li  {
   text-decoration: none;
 }
 
-.first-section {
+.main-header {
   background-color: #F9F8F8;
+  padding: 1em 0;
 }
 
+.portfolio {
+  background-color: #ffffff;
+}
 
-footer {
-  background-color: #F9F8F8;
+/*
+Media queries
+*/
+
+@media (min-width: 769px)  {
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
