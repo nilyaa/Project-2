@@ -28,6 +28,7 @@ h3 {
 p {
 	margin-left: 20px;
 	margin-right: 20px;
+	color: #9a9a9a;
 }
 
 footer {
@@ -39,8 +40,18 @@ footer li {
 		display: inline;
 }
 
-li {
-	display: block;
+.header-nav li {
+	display: inline-block;
+	background-color: white;
+	width: 90%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ul {
+	padding-left: 0;
 }
 
 img {
@@ -70,7 +81,8 @@ a:active {
 
 .main-body-wrapper {
 	font-family: 'Sarabun', sans-serif;
-	background-color: #F9F8F8;
+	color: #696969;
+	background-color: #f6f6f6;
 	text-align: center;
 	display: display-block;
 	max-width: 1000px;
@@ -90,7 +102,7 @@ a:active {
 }
 
 .main-header {
-	padding-top: 5%;
+	padding-top: 0;
 	padding-bottom: 10%;
 }
 
