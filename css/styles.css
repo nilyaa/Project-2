@@ -16,19 +16,34 @@ body {
 	background-color: #F9F8F8;
 }
 
+header {
+	padding-top: 0;
+	padding-bottom: 10%;
+}
+
 section {
 	padding-top: 5%;
+
+
+}
+
+h2 {
+	font-size: 20px;
 }
 
 h3 {
 	padding-top: 5%;
+	font-weight: normal;
 
 }
 
 p {
+	font-weight: lighter;
+	text-align: inherit;
+  line-height: 25px;
 	margin-left: 20px;
 	margin-right: 20px;
-	color: #9a9a9a;
+	color: #636466;
 }
 
 footer {
@@ -40,18 +55,9 @@ footer li {
 		display: inline;
 }
 
-.header-nav li {
-	display: inline-block;
-	background-color: white;
-	width: 90%;
-	margin-top: 3px;
-	margin-bottom: 3px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
 ul {
 	padding-left: 0;
+	margin-bottom: 50px;
 }
 
 img {
@@ -61,12 +67,12 @@ img {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(255, 169, 73);
+  color: #454647;
   text-decoration: none;
 }
 
 a:visited {
-  color: lightblue;
+  color: #454647;
 }
 
 a:hover {
@@ -81,7 +87,7 @@ a:active {
 
 .main-body-wrapper {
 	font-family: 'Sarabun', sans-serif;
-	color: #696969;
+	color: #454647;
 	background-color: #f6f6f6;
 	text-align: center;
 	display: display-block;
@@ -94,6 +100,7 @@ a:active {
 	background-color: white;
 	padding-top: 10%;
 	padding-bottom: 10%;
+
 	width: 100%; /* change in media queries according to screen size */
 }
 
@@ -101,11 +108,17 @@ a:active {
 	padding-bottom: 5%;
 }
 
-.main-header {
-	padding-top: 0;
-	padding-bottom: 10%;
+.header-nav li {
+	display: inline-block;
+	background-color: white;
+	font-weight: bold;
+	width: 90%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-
-
-/* Layout Styles ------------------ */
+.profile-image {
+	width: 250px;
+}
