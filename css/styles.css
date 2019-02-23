@@ -9,12 +9,21 @@ footer contact details color: #7c7c7f;
 Base styles
 */
 
+/*
+header styling
+*/
+
+/*
+media queries
+float &
+*/
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	background-color: #F9F8F8;
+	background-color: #f6f6f6;
 }
 
 header {
@@ -24,14 +33,19 @@ header {
 
 header p {
 	color: #7c7c7f;
+	padding-top: 10px;
 }
 
 section {
 	padding-top: 5%;
 }
 
+h1 {
+	font-size: 25px;
+}
+
 h2 {
-	font-size: 16.5px;
+	font-size: 14px;
 }
 
 h3 {
@@ -46,6 +60,10 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+		padding-left: 13px;
+		padding-right: 53px;
+
+
 	}
 
 p {
@@ -82,7 +100,7 @@ hr {
 
 ul {
 	padding-left: 0;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 img {
@@ -116,7 +134,6 @@ a:active {
 	background-color: #f6f6f6;
 	text-align: center;
 	display: display-block;
-	max-width: 1000px;
 	/* max-width: 900px; ask Kwacho*/
 	margin: auto; /* change in media queries according to screen size */
 }
@@ -143,6 +160,7 @@ a:active {
 	display: inline-block;
 	background-color: white;
 	font-weight: bold;
+	font-size: 15px;
 	width: 90%;
 	margin-top: 3px;
 	margin-bottom: 3px;
@@ -151,7 +169,7 @@ a:active {
 }
 
 .profile-image {
-	width: 250px;
+	width: 200px;
 }
 
 .contact-wrapper {
@@ -173,11 +191,97 @@ padding-bottom: 20px;
 	display: flex;
     justify-content: center;
     align-items: center;
-		margin-top: 20px;
+		padding: auto;
 
 }
 
 .footer-nav ul {
 	margin-bottom: 0;
-	margin-left: 120px;
+
+
+}
+
+/*
+Media Queries
+*/
+
+@media (min-width: 768px) {
+
+	.header-nav li {
+	 display: inline;
+	 background-color: inherit;
+	 font-weight: bold;
+	}
+
+	h1 {
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+
+	.header-nav li {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.col-1 {
+		display: inline-block;
+		width: 50%;
+		margin-right: -4px;
+	}
+
+	.col-2 {
+		display: inline-block;
+		width:50%;
+		margin-right: -4px;
+	}
+
+	.col-3 {
+		display: inline-block;
+		width:50%;
+		margin-right: -4px;
+		vertical-align: top;
+	}
+
+	.profile-image {
+		float: right;
+	}
+
+section {
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-top: 25px;
+}
+
+.portfolio {
+	padding-top: 45px;
+}
+.portfolio figure {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+footer {
+	padding-top: 30px;
+}
+
+.contact-wrapper {
+	margin-left: 155px;
+	margin-right: 155px;
+}
+
+.footer-nav-wrapper {
+	display: flex;
+    justify-content: left;
+    align-items: left;
+		padding: auto;
+	}
+
+h4 {
+	padding-left: 40px;
+}
+}
+
+
+
+
 }
