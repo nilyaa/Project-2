@@ -134,8 +134,8 @@ a:active {
 	color: #454647;
 	background-color: #f6f6f6;
 	text-align: center;
-	display: display-block;
-	
+
+
 	/* max-width: 900px; ask Kwacho*/
 	margin: auto; /* change in media queries according to screen size */
 }
@@ -207,6 +207,14 @@ padding-bottom: 20px;
 Media Queries
 */
 
+@media (max-width: 768px) {
+
+.desktop-nav {
+	display: none;
+}
+
+}
+
 @media (min-width: 768px) {
 
 	.header-nav li {
@@ -225,21 +233,9 @@ Media Queries
 		padding-right: 20px;
 	}
 
-	.col-1 {
+	.col {
 		display: inline-block;
 		width: 50%;
-		margin-right: -4px;
-	}
-
-	.col-2 {
-		display: inline-block;
-		width:50%;
-		margin-right: -4px;
-	}
-
-	.col-3 {
-		display: inline-block;
-		width:50%;
 		margin-right: -4px;
 		vertical-align: top;
 	}
@@ -250,61 +246,80 @@ Media Queries
 		margin-left: 20px;
 	}
 
-section {
-	margin-right: 25px;
-	margin-left: 25px;
-	padding-top: 25px;
-}
-
-.portfolio {
-	padding-top: 45px;
-}
-.portfolio figure {
-	margin-right: 5px;
-	margin-left: 5px;
-}
-
-footer {
-	padding-top: 30px;
-}
-
-.contact-wrapper {
-	margin-left: 155px;
-	margin-right: 155px;
-}
-
-.footer-nav-wrapper {
-	display: flex;
-    justify-content: left;
-    align-items: left;
-		padding: auto;
+	section {
+		margin-right: 25px;
+		margin-left: 25px;
+		padding-top: 25px;
 	}
 
-h4 {
-	padding-left: 40px;
-}
+	.portfolio {
+		padding-top: 45px;
+	}
+	.portfolio figure {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
 
-header {
-	padding-bottom: 60px;
-}
+	footer {
+		padding-top: 30px;
+	}
 
-header p {
-	padding-top: 0px;
-	text-align: left;
-	font-size: 20px;
-	margin-right: 0px;
-}
+	.contact-wrapper {
+		margin-left: 155px;
+		margin-right: 155px;
+	}
 
-.header-nav {
-	margin-bottom: 60px;
-}
+	.footer-nav-wrapper {
+		display: flex;
+	    justify-content: left;
+		}
 
-.clearfix::after {
-	content:"";
-	display: table;
-	clear: both;
-}
+	h4 {
+		padding-left: 5%;
+	}
+
+	header {
+		padding-bottom: 60px;
+	}
+
+	header p {
+		padding-top: 0px;
+		text-align: left;
+		font-size: 17px;
+		margin-right: 0px;
+		margin-left: 30px;
+	}
+
+	.header-nav {
+		margin-bottom: 60px;
+	}
+
+
+	.footer-nav ul,
+	li {
+		display: inline-block;
+		margin-top: 0px;
+
+	}
 
 
 
-}
+	.mobile-nav {
+		display: none;
+	}
+
+	.desktop-nav {
+		display: inline;
+		margin-left: 140%;
+		position: relative;
+	}
+
+	.clearfix::after {
+		content:"";
+		display: table;
+		clear: both;
+	}
+
+
+
+	}
