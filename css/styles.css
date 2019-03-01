@@ -54,18 +54,20 @@ h3 {
 	font-weight: normal;
 }
 
-h4 {
-    display: inline-block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.name {
+
     font-weight: bold;
-		padding-left: 13px;
-		padding-right: 53px;
-
-
+		margin-left: 5%;
+		float: left;
 	}
+
+.footer-nav li {
+	float: right;
+}
+
+.mobile-nav li {
+	margin-right: 0px;
+}
 
 p {
 	font-weight: lighter;
@@ -73,6 +75,9 @@ p {
   line-height: 25px;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+
 }
 
 footer {
@@ -102,6 +107,7 @@ hr {
 ul {
 	padding-left: 0;
 	margin-bottom: 40px;
+	display: inline-block;
 }
 
 img {
@@ -189,11 +195,6 @@ padding-bottom: 20px;
 	padding-right: 20px;
 }
 
-.footer-nav-wrapper {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-		padding: auto;
 
 }
 
@@ -269,14 +270,9 @@ Media Queries
 		margin-right: 155px;
 	}
 
-	.footer-nav-wrapper {
-		display: flex;
-	    justify-content: left;
-		}
 
-	h4 {
-		padding-left: 5%;
-	}
+
+
 
 	header {
 		padding-bottom: 60px;
@@ -308,11 +304,7 @@ Media Queries
 		display: none;
 	}
 
-	.desktop-nav {
-		display: inline;
-		margin-left: 140%;
-		position: relative;
-	}
+
 
 	.clearfix::after {
 		content:"";
