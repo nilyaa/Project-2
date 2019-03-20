@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
+  <title>Second-Project</title>
   <meta charset="UTF-8">
   <meta name="project-2" content="Mobile-first Responsive Website">
   <meta name="keywords" content="HTML,CSS">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link href=<link href="https://fonts.googleapis.com/css?family=Sarabun:400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sarabun:400,500" rel="stylesheet">
 </head>
 
 <body>
@@ -24,10 +25,13 @@
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
-        <figure>
-          <img class="profile-image" src="./responsive_layout_v3/images/responsive-layout-profile.png" alt="profile image">
-        </figure>
-        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at treehouse and am excited to put my skills to use!</p>
+        <div class="profile-wrapper">
+          <figure>
+            <img class="profile-image" src="./responsive_layout_v3/images/responsive-layout-profile.png" alt="profile image">
+          </figure>
+          <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at treehouse and am excited to put all my skills to use!</p>
+        </div>
+        </div>
       </header>
 
       <div class="portfolio" id="portfolio">
@@ -103,13 +107,12 @@
      <div class="footer-nav-wrapper clearfix">
       <h4 class="name">Student Name</h4>
           <nav class="footer-nav">
-            <ul>
+            <ul class="ul-style clearfix">
               <li class="mobile-nav"><a href="#">BACK TO TOP</a></li>
-              <div class="desktop-nav">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">CONTACT</a></li>
-              </div>
+              <li class="desktop-nav"><a href="#">HOME</a></li>
+              <li class="desktop-nav"><a href="#">PORTFOLIO</a></li>
+              <li class="desktop-nav"><a href="#">CONTACT</a></li>
+
             </ul>
           </nav>
       </div>
