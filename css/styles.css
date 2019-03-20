@@ -1,9 +1,4 @@
 
-/*
-header and footer background color: #F9F8F8
-font-family: 'Sarabun', sans-serif;
-footer contact details color: #7c7c7f;
-*/
 
 /*
 Base styles
@@ -416,6 +411,12 @@ Media Queries
 		 width: 50%;
 		 text-align: center;
 		 display: inline-block;
+	 }
+
+	 .portfolio {
+		 width: 95%;
+		 display: inline-block;
+		 text-align: center;
 	 }
 
 	 .clearfix::after {
